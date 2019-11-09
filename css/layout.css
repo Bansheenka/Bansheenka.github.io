@@ -45,6 +45,15 @@ p {
   margin-bottom: 15px;
 }
 
+p1 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Hind, sans-serif;
+  color: #a6a7aa;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
 em,
 li,
 li a {
@@ -79,7 +88,7 @@ a:focus, a:hover, a:active {
   right: -15px;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #0f9b2b;
   content: " ";
 }
 
@@ -127,24 +136,6 @@ h4 {
   font-size: 18px;
 }
 
-::selection {
-  color: #fff;
-  background: #17bed2;
-  text-shadow: none;
-}
-
-::-webkit-selection {
-  color: #fff;
-  background: #17bed2;
-  text-shadow: none;
-}
-
-::-moz-selection {
-  color: #fff;
-  background: #17bed2;
-  text-shadow: none;
-}
-
 :active,
 :focus {
   outline: none;
@@ -165,30 +156,6 @@ h4 {
   display: block;
   z-index: 3;
   text-decoration: none;
-}
-
-/*------------------------------------------------------------------
-  	[Blockquote]
-------------------------------------------------------------------*/
-.blockquote {
-  position: relative;
-  font-size: 17px;
-  font-weight: 400;
-  font-family: Hind, sans-serif;
-  color: #a6a7aa;
-  line-height: 1.4;
-  border-left: none;
-  margin-left: 20px;
-}
-
-.blockquote:before {
-  position: absolute;
-  top: 0;
-  left: -20px;
-  font-size: 60px;
-  display: inline-block;
-  color: #17bed2;
-  content: '“';
 }
 
 /*------------------------------------------------------------------
@@ -254,7 +221,7 @@ fieldset[disabled] .btn-theme {
 
 .btn-white-bg:hover, .btn-white-bg:focus, .btn-white-bg.focus {
   color: #fff;
-  background: #17bed2;
+  background: #0f9b2b;
   border-color: transparent;
 }
 
@@ -280,7 +247,7 @@ fieldset[disabled] .btn-theme {
 
 .btn-default-bg:hover, .btn-default-bg:focus, .btn-default-bg.focus {
   color: #fff;
-  background: #17bed2;
+  background: #0f9b2b;
   border-color: transparent;
 }
 
@@ -303,50 +270,6 @@ fieldset[disabled] .btn-theme {
   padding: 70px 45px;
   background: #fff;
   margin-top: 50px;
-}
-
-@media (max-width: 768px) {
-  .pricing {
-    margin-top: 0;
-  }
-}
-
-.pricing.pricing-active {
-  padding-top: 110px;
-  padding-bottom: 110px;
-  margin-top: 10px;
-}
-
-@media (max-width: 768px) {
-  .pricing.pricing-active {
-    margin-top: 0;
-  }
-}
-
-.pricing .pricing-icon {
-  display: block;
-  font-size: 30px;
-  color: #999caa;
-  margin-bottom: 30px;
-}
-
-.pricing .pricing-list-item {
-  position: relative;
-  font-size: 13px;
-  color: #81848f;
-  padding-left: 20px;
-  margin-bottom: 10px;
-}
-
-.pricing .pricing-list-item:before {
-  position: absolute;
-  top: 7px;
-  left: 0;
-  width: 9px;
-  height: 2px;
-  background: #17bed2;
-  content: " ";
-  margin-right: 10px;
 }
 
 /*------------------------------------------------------------------
@@ -422,50 +345,6 @@ fieldset[disabled] .btn-theme {
 .promo-block .promo-block-text {
   font-size: 25px;
   color: #fff;
-}
-
-/*------------------------------------------------------------------
-  	[Service]
-------------------------------------------------------------------*/
-.service {
-  background: #fff;
-  padding: 50px;
-}
-
-.service .service-element,
-.service .service-info {
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.service .service-icon {
-  display: block;
-  font-size: 30px;
-  color: #999caa;
-  margin-bottom: 30px;
-}
-
-.service:hover .service-element {
-  opacity: 0;
-  -webkit-transform: translate3d(0, -100%, 0);
-  -moz-transform: translate3d(0, -100%, 0);
-  transform: translate3d(0, -100%, 0);
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.service:hover .service-info {
-  -webkit-transform: translate3d(0, -30%, 0);
-  -moz-transform: translate3d(0, -30%, 0);
-  transform: translate3d(0, -30%, 0);
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
 /*------------------------------------------------------------------
@@ -682,7 +561,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .header .navbar-toggle:hover .toggle-icon {
-  background: #17bed2;
+  background: #0f9b2b;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -691,7 +570,7 @@ fieldset[disabled] .btn-theme {
 .header .navbar-toggle:hover .toggle-icon:before, .header .navbar-toggle:hover .toggle-icon:after {
   width: 21px;
   height: 1px;
-  background: #17bed2;
+  background: #0f9b2b;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -802,7 +681,7 @@ fieldset[disabled] .btn-theme {
   left: 0;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #0f9b2b;
   opacity: 0;
   content: " ";
   transition-duration: 400ms;
